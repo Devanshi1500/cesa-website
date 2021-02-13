@@ -269,8 +269,10 @@ li{
 }
 
 #content-container p{
+    font-size: var(--pfontsize);
     font-weight: 500;
-    line-height: 1.8em;
+    color: var(--textBlack);
+    line-height: 1.7em;
     margin-bottom: 30px;
 }
 
@@ -948,7 +950,7 @@ svg{
 
 #info li{
     background-color: inherit;
-    cursor: pointer;
+    cursor: text;
     list-style: none;
     padding: 10px;
 }
@@ -1039,24 +1041,17 @@ svg{
 ***************************************** */
 
 #footer-container{
-    height: 210px;
     background-color: var(--textBlack);
-    padding: 30px;
+    padding: 10px;
     bottom: 0;
-}
-
-#footer-container h2{
-    background-color: inherit;
-    color: var(--textGray);
-    font-weight: 700;
 }
 
 #footer-container #logo-footer{
     background-color: inherit;
     margin-right: auto;
     margin-left: auto;
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    width: 30px;
 }
 
 #logo-footer img{
