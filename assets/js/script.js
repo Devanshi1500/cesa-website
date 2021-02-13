@@ -1,7 +1,7 @@
 window.addEventListener("load",function() {
     const header = document.getElementById("header");
     const backToTopBtn = document.getElementById("back-to-top");
-    $('#loading').hide();
+    document.getElementById('loading').style.display = "none";
 
 
     window.addEventListener("scroll", function () {
