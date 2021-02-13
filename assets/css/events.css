@@ -1,0 +1,204 @@
+:root{
+    --textOrange : #FD5526;
+    --textBrown: #AF3D23;
+    --backgroundYellow : #F0F3D6;
+    /* --backgroundYellow : lemonchiffon; */
+    --backgroundDarkYellow : #eff5be;
+    --backgroundDarkYellow : #FE5627;
+    --textGray: #637282;
+    --textBlack: #05203a;
+    --shadowGrey:  #969595;
+    --shadowLightGrey: #cfcfcf;
+    --backgroundWhite: ivory;
+
+    --h1fontsize: 50px;
+    --h1fontweight: 800;
+    --h2fontsize: 40px;
+    --h2fontweight: 700;
+    --h3fontsize: 30px;
+    --h3fontweight: 600;
+    --h4fontsize: 20px;
+    --h4fontweight: 500;
+    --h5fontsize: 16px;
+    --h5fontweight: 400;
+    --pfontsize: 14px;
+    --pfontweight: 300;
+}
+
+*{
+    color: var(--textBlack);
+}
+
+/* ********************** */
+/*      DESCRIPTION      */
+/* ******************** */
+
+
+#container{
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin: 0%;
+}
+
+#container #heading{
+    padding-top: 100px;
+    font-size: var(--h1fontsize);
+    font-weight: var(--h1fontweight);
+}
+
+#container .row .col-lg-6 img{
+    width: 100%;
+}
+
+#container .row .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container .desc h4{
+    font-size: var(--h4fontsize);
+    font-weight: var(--h4fontweight);
+}
+
+#container .desc .contact p{
+    margin-bottom: 0px;
+    font-weight: var(--h4fontweight);
+}
+
+#container .row .col-lg-6 p{
+    font-size: 15px;
+    font-weight: var(--pfontweight);
+}
+
+#timer h3{
+    font-size: var(--h3fontsize);
+    font-weight: 350;
+}
+
+#count-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#count-down .big{
+    padding: 0.5% 5%;
+    font-size: 4.5vw;
+}
+
+/* ********************** */
+/*          RULES        */
+/* ******************** */
+
+
+#rules, #judging-params{
+    text-align: left;
+    font-weight: var(--h3fontweight);
+}
+
+#rules ol li, #judging-params ol li{
+    text-align: left;
+    font-weight: var(--pfontweight);
+    font-size: var(--pfontsize);
+    list-style-type: circle;
+}
+
+#rules-quiz{
+    text-align: left;
+    font-weight: var(--h3fontweight);
+    display: block;
+}
+
+#rules-quiz li{
+    font-size: var(--pfontsize);
+    font-weight: var(--pfontweight);
+    list-style-type: disc;
+}
+
+#rules-quiz h3{
+    font-size: var(--h3fontsize);
+    color: var(--textBlack);
+}
+
+#rules-quiz h5{
+    font-size: var(--h5fontsize);
+    font-weight: var(--h3fontweight);
+}
+
+#rules-quiz ol ul{
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+#rules-quiz ol ul h6{
+    font-weight: var(--h3fontsize);
+}
+
+#rules-quiz ol ul li{
+    list-style-type: circle;
+}
+
+
+/* ********************** */
+/*   REGISTER BUTTON     */
+/* ******************** */
+
+
+
+
+#register{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#register button{
+    background-color: var(--textOrange);
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    outline: none;
+}
+
+#register button:hover{
+    opacity: 0.9;
+}
+
+#register button a{
+    text-decoration: none;
+    color: var(--backgroundYellow);
+}
+
+/* ********************** */
+/*          PRIZES        */
+/* ******************** */
+
+
+
+
+#prizes .row{
+    font-size: 4.5vw;
+    font-weight: var(--h1fontsize);
+}
+
+#prizes .col-lg-4{
+    display: flex;
+    flex-direction: column;
+}
+
+#prizes .row .position{
+    font-size: var(--h4fontsize);
+    font-weight: var(--h4fontweight);
+    opacity: 0.8;
+}
+
+#prizes .row .amount{
+    font-size: var(--h3fontsize);
+}
