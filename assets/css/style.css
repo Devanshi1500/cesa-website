@@ -868,7 +868,7 @@ svg{
 
     .carousel-wrapper .carousel .carousel-cell.is-selected {
         z-index: 100;
-        transform: scale(1);
+        transform: scale(1.5);
     }
 }
 

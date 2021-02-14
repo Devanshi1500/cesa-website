@@ -51,7 +51,18 @@
 }
 
 #container .row .col-lg-6 img{
-    width: 100%;
+    width: 60%;
+}
+
+#quiz-img{
+    width: 40%!important;
+}
+
+@media screen and (max-width: 700px){
+    #container .row .col-lg-6 img{
+        height: 200px;
+        width: auto!important;
+    }
 }
 
 #container .row .desc{
@@ -59,6 +70,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
 #container .desc h4{
