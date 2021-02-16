@@ -188,6 +188,12 @@
     color: var(--backgroundYellow);
 }
 
+@media screen and (max-width: 650px){
+    #register button{
+        width: 50%;
+    }
+}
+
 /* ********************** */
 /*          PRIZES        */
 /* ******************** */
