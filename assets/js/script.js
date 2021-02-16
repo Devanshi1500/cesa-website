@@ -21,9 +21,11 @@ window.addEventListener("load",function() {
 
     window.addEventListener("scroll", function(){
         if($(window).scrollTop()+$(window).height() - 40 - $(document).height() + 100 >= 0){
+            // console.log("in footer")
             backToTopBtn.style.backgroundColor = "#fa6238";
         }
         else{
+            // console.log("out of footer")
             backToTopBtn.style.removeProperty("background-color");
         }
     })

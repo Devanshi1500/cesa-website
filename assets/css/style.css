@@ -97,6 +97,7 @@ li{
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-property: background-color, color;
+    box-shadow: 1px 1px 10px var(--shadowGrey);
 }
 
 #back-to-top i{
@@ -709,9 +710,14 @@ li{
     .col{
         margin-bottom: 30px;
     }
+    .card .card-body button{
+        width: 80%;
+    }
 }
 
-
+.row{
+    margin-left: 0px!important;
+}
 
 
 /* *****************************************
