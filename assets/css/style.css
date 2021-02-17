@@ -1212,14 +1212,10 @@ svg{
     background-color: inherit;
     margin-right: auto;
     margin-left: auto;
-    /* height: 30px;
-    width: 30px; */
 }
 
 #logo-footer img{
     background-color: inherit;
-    /* height: 100%; */
-    /* width: 100%; */
 }
 
 #footer-container .terms{
@@ -1245,6 +1241,7 @@ svg{
 #footer-container .terms span{
     background-color: inherit;
     color: white;
+    padding: 10px;
 }
 
 #footer-container .light{
