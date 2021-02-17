@@ -41,10 +41,10 @@ function togglenav(){
     var navbar = document.getElementById("navigation")
     if(navbar.style.display == "flex"){
         navbar.style.display = "none";
-        console.log("flex!")
+        // console.log("flex!")
     }
     else{
         navbar.style.display = "flex";
-        console.log("none!")
+        // console.log("none!")
     }
 }

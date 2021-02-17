@@ -24,8 +24,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script> -->
 
     
 
@@ -95,27 +95,27 @@
 
 
     <div class="row" id="rules-quiz">
-        <h3>Rules:</h3>
+        <h3 data-aos="fade-down">Rules:</h3>
     <p>This is an individual event. Google Classroom and whatsApp group of events will be created. In Quizophilic, there will be three rounds.</p>
 
-    <h5>Round 1:</h5>
-    <ol>
+    <h5 data-aos="fade-left">Round 1:</h5>
+    <ol data-aos="fade-left">
         <li>In this round, a Google form will be provided to the participants.</li>
         <li>In the Google form, they will be asked questions related to Civil Engineering.</li>
         <li>You have to select the correct option.</li>
-        <li>The participants who have scored higher marks will be promoted to the next round (upto 16 participants).</li>
+        <li>Top 16 will be promoted to the next round.</li>
     </ol>
 
-    <h5>Round 2</h5>  
-    <ol>
+    <h5 data-aos="fade-right">Round 2</h5>  
+    <ol data-aos="fade-right">
         <li>In this round, the participants have to join a Google meet.</li>
         <li>On Google meet, questions will be shown by presenting the screen.</li>
         <li>Each question will be shown for a few minutes. You have to write answers on paper and submit it on Google Classroom.</li>
         <li>On the basis of max correct answers submitted in less time, the participants will be promoted to the next round (3 teams).</li>
     </ol>
 
-    <h5>Round 3</h5>
-    <ol>
+    <h5 data-aos="fade-left">Round 3</h5>
+    <ol data-aos="fade-left">
         <li>In this round there will two sub rounds.
             
             <ul>
@@ -136,19 +136,22 @@
 
     <div id="prizes">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <span><i class="fas fa-trophy"></i></span>
                 <span class="position">#1</span>
+                <span class="worth">Prizes Worth</span>
                 <span class="amount">&#8377; 3000</span>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-right">
                 <span><i class="fas fa-medal"></i></span>
                 <span class="position">#2</span>
+                <span class="worth">Prizes Worth</span>
                 <span class="amount">&#8377; 2000</span>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <span><i class="fas fa-award"></i></span>
                 <span class="position">#3</span>
+                <span class="worth">Prizes Worth</span>
                 <span class="amount">&#8377; 1000</span>
             </div>
         </div>
@@ -165,20 +168,49 @@
 
 
 <footer>
-    <div id="footer-container">
+    <div id="footer-container" class="d-md-block d-lg-block d-xl-block d-none">
         <div class="terms">
             <a href="" style="cursor: text;"><i style="color: white;" class="far fa-copyright"></i> CESA VJTI 2021</a>
-            <div id="logo-footer"><a href="index.html"><img src="./images/logos/cesa white.png" alt=""></a></div>
-            <a href="" style="cursor: text;">info.cesa.vjti@gmail.com</a>
+            <div id="logo-footer"><a href="#"><img src="./images/logos/cesa white.png" alt="" height="70" width="60"></a></div>
+            <!-- <a href="" style="cursor: text;">info.cesa.vjti@gmail.com</a> -->
+            <ul id="sci" class="mt-3">
+                <li><span><a href="https://www.instagram.com/cesavjti/" target="_blank" style="background-color:var(--textBlack);"><i class="fab fa-instagram" style="font-size: 23px;"></i></a></span></li>
+                <li><span><a href="https://www.linkedin.com/in/cesa-vjti-44aa59174/" target="_blank" style="background-color:var(--textBlack);"><i class="fab fa-linkedin-in" style="font-size: 23px;"></i></a></span></li>
+                <li><span><a href="https://www.youtube.com/channel/UCPy89RXTqPXYzwQ_hIAoRGg" target="_blank" style="background-color:var(--textBlack);"><i class="fab fa-youtube" style="font-size: 23px;"></i></a></span></li>
+                <li><span><a href="index.html#contact" style="background-color:var(--textBlack);"><i class="far fa-envelope" style="font-size: 23px;"></i></a></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer-container" class="d-sm-block d-md-none d-lg-none d-xl-none">
+        <div class="container" style="background-color:var(--textBlack);">
+            <div class="row" style="background-color:var(--textBlack);">
+                <div class="col-12 text-center" style="background-color:var(--textBlack);">
+                    <div id="logo-footer"><a href="#"><img src="./images/logos/cesa white.png" alt="" height="90" width="90"></a></div>
+                </div>
+                <div class="col-12 text-center" style="background-color:var(--textBlack); margin-top: 37px;">
+                    <h4 style="background-color:var(--textBlack); color:var(--backgroundWhite); font-weight:bold;">Follow Us</h4>
+                    <ul id="sci">
+                        <li><span><a href="https://www.instagram.com/cesavjti/" target="_blank" style="background-color:var(--textBlack);"><i class="fab fa-instagram" style="font-size: 23px; text-decoration: none; color: var(--backgroundWhite)"></i></a></span></li>
+                        <li><span><a href="https://www.linkedin.com/in/cesa-vjti-44aa59174/" target="_blank" style="background-color:var(--textBlack);"><i class="fab fa-linkedin-in" style="font-size: 23px; text-decoration: none; color: var(--backgroundWhite)"></i></a></span></li>
+                        <li><span><a href="https://www.youtube.com/channel/UCPy89RXTqPXYzwQ_hIAoRGg" target="_blank" style="background-color:var(--textBlack);"><i class="fab fa-youtube" style="font-size: 23px; text-decoration: none; color: var(--backgroundWhite)"></i></a></span></li>
+                        <li><span><a href="index.html#contact" style="background-color:var(--textBlack);"><i class="far fa-envelope" style="font-size: 23px; text-decoration: none; color: var(--backgroundWhite)"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="terms">
+            <a href="" style="cursor: text;"><i style="color: white;" class="far fa-copyright"></i> CESA VJTI 2021</a>
         </div>
     </div>
 </footer>
 
+
 </body>
 <script>
     // Initializing AOS
-    AOS.init({duration: 1000,});
+    AOS.init({duration: 1200,});
 
 </script>
-
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </html>

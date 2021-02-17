@@ -1237,11 +1237,12 @@ svg{
 #footer-container .terms a{
     text-decoration: none;
     background-color: inherit;
-    color: white;
+    color: ivory;
 }
 
 #footer-container .terms a i{
     background-color: inherit;
+    color: ivory;
 }
 
 #footer-container .terms span{
