@@ -838,6 +838,12 @@ li{
     border: none;
 }
 
+@media screen and (max-width: 650px){
+    #aftermovie-container iframe{
+        width: 100%;
+    }
+}
+
 /* *****************************************
             2020 GLIMPSES
 ***************************************** */
