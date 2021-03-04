@@ -580,15 +580,34 @@ li{
     font-size: var(--h4fontsize);
 }
 
-#title-spons img{
+#title-spons img.title{
     width: 50%;
     height: auto;
 }
 
+#title-spons img.partners{
+    width: 100%;
+    height: auto;
+}
+
+#title-spons img.partners.enlighten{
+    width: 100%;
+    height: 56%;
+}
+
 @media screen and (max-width:700px){
-    #title-spons img{
+    #title-spons img.title{
         width: 90%;
         height: auto;
+    }
+
+    #title-spons img.partners.enlighten{
+        width: 90%;
+        height: auto;
+    }
+
+    #title-spons div.col-6{
+        margin-bottom: 20px;
     }
 }
 
